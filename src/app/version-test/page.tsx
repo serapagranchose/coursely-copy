@@ -9,10 +9,10 @@ import TestimonialCard from "@/components/TestimonialCard";
 export default function Home() {
   return (
     <div className='grid justify-items-center'>
-      <div className='flex gap-1 w-[1200px] p-[5px] px-[20px]'>
-        <div className='grid gap-12 self-center my-[40px]'>
+      <div className='w-full flex gap-1 w-full max-w-[1200px] p-[5px] px-[20px]'>
+        <div className='grid gap-12 w-full max-w-[700px] self-center my-[40px]'>
           <div>
-            <div className='text-6xl font-black'>
+            <div className='text-6xl break-words font-black'>
               There is no planet B <br></br>
               We help you to reach out your Net 0 journey
             </div>
@@ -22,7 +22,7 @@ export default function Home() {
           </div>
           <Button title='Get Started' />
         </div>
-        <div className='relative flex-shrink-0 w-[431px] h-[500px]'>
+        <div className='hidden md:flex relative flex-shrink-0 w-[431px] h-[500px]'>
           <Image
             src={'/assets/images/forest.jpeg'}
             alt='Forest'
@@ -95,7 +95,7 @@ export default function Home() {
           Testimonials
         </div>
       </div>
-      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-[20px] w-[1200px] mx-[20px] mb-[90px]'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-[20px] w-full max-w-[1200px] mx-[20px] mb-[90px]'>
         <TestimonialCard img_src={'/assets/images/user-profile-pic/VOnYlAwr.jpg'} name="Carmen Cabareti" company="EDF" text="DT Master Carbon supports on the compensation part to source high quality projects" />
         <TestimonialCard img_src={'/assets/images/user-profile-pic/ZkFJoQ8Z.jpg'} name="Adam Kacimi" company="Eurostar" text="DT Master Carbon was a great help for us regarding our Net 0 strategy"/>
       </div>
