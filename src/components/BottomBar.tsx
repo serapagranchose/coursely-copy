@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function BottomBar() {
   return (
     <div className='flex justify-center w-full h-[228px] bottom-0 p-[40px] bg-egg-shell-dark'>
-      <div className='flex justify-between w-[1200px]'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-[20px] w-[1200px]'>
         <div>  
           <Link href='/version-test' className='flex gap-2 flex-center'>
             <Image
