@@ -29,7 +29,7 @@ export default function TestimonialCard({ img_src, name, company, text }: Testim
 
       </div>
       <div className="self-center mx-[5px]">
-        <div>"{text}"</div>
+        <div>{`"${text}"`}</div>
       </div>
     </div>
   );
