@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function Nav() {
   return (
-    <nav className='grid justify-items-center'>
-      <div className='w-full flex justify-between p-[15px] lg:p-[20px] lg:pt-[30px] border-solid border-b-[2px] border-egg-shell-dark'>
+    <nav className='w-full grid justify-items-center'>
+      <div className='w-full max-w-[1200px] flex justify-between p-[15px] lg:p-[20px] lg:pt-[30px] border-solid border-b-[2px] border-egg-shell-dark'>
         <Link href='/version-test' className='hidden lg:flex gap-2 flex-center'>
           <Image
             src='/assets/images/logo.png'
@@ -37,7 +37,7 @@ export default function Nav() {
         </button>
       </div>
 
-      <div className='w-full hidden lg:flex justify-start gap-5 p-[20px]'>
+      <div className='w-full max-w-[1200px] hidden lg:flex justify-start gap-5 p-[20px]'>
         <button className='pr-[20px] border-solid border-r-[2px] border-[#eeece5]'>
           <div>Substainability tools</div>
         </button>
