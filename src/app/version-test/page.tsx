@@ -85,9 +85,9 @@ export default function Home() {
         </div>
       </div>
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[20px] w-[1200px] mx-[20px]'>
-        <ExpertCard img_src={'/assets/images/SBTI_Decarbonation_Strategy.jpeg'} name="John Doe" title="ESG communication & marketing expert" />
-        <ExpertCard img_src={'/assets/images/ACT_Decarbonation.png'} name="Monsieur Dupont" title="Expert in sustainability and finance" />
-        <ExpertCard img_src={'/assets/images/Aktio_carbon_footprint_software.png'} name="Monsieur Durand" title="Expert in carbon offsets" />
+        <ExpertCard img_src={'/assets/images/user-profile-pic/9XnCvz8m.jpg'} name="Marie Caron" title="ESG communication & marketing expert" />
+        <ExpertCard img_src={'/assets/images/user-profile-pic/JSFWlyoi.jpg'} name="Scott Yldrich" title="Expert in sustainability and finance" />
+        <ExpertCard img_src={'/assets/images/user-profile-pic/quyonu2X.jpg'} name="John Smith" title="Expert in carbon offsets" />
       </div>
 
       <div className="flex items-center justify-center">
@@ -96,8 +96,8 @@ export default function Home() {
         </div>
       </div>
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-[20px] w-[1200px] mx-[20px] mb-[90px]'>
-        <TestimonialCard img_src={'/assets/images/SBTI_Decarbonation_Strategy.jpeg'} name="John Smith" company="EDF" text="DT Master Carbon supports on the compensation part to source high quality projects" />
-        <TestimonialCard img_src={'/assets/images/ACT_Decarbonation.png'} name="Monsieur Jean" company="Eurostar" text="DT Master Carbon was a great help for us regarding our Net 0 strategy"/>
+        <TestimonialCard img_src={'/assets/images/user-profile-pic/VOnYlAwr.jpg'} name="Carmen Cabareti" company="EDF" text="DT Master Carbon supports on the compensation part to source high quality projects" />
+        <TestimonialCard img_src={'/assets/images/user-profile-pic/ZkFJoQ8Z.jpg'} name="Adam Kacimi" company="Eurostar" text="DT Master Carbon was a great help for us regarding our Net 0 strategy"/>
       </div>
     </div>
   )
